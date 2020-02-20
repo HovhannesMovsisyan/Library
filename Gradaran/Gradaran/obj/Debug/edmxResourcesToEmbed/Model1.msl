@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="GradaranModelStoreContainer" CdmEntityContainer="GradaranEntities">
+    <EntitySetMapping Name="Grqers">
+      <EntityTypeMapping TypeName="GradaranModel.Grqer">
+        <MappingFragment StoreEntitySet="Grqer">
+          <ScalarProperty Name="id" ColumnName="id" />
+          <ScalarProperty Name="vernagir" ColumnName="vernagir" />
+          <ScalarProperty Name="heghinak" ColumnName="heghinak" />
+          <ScalarProperty Name="gin" ColumnName="gin" />
+          <ScalarProperty Name="qanak" ColumnName="qanak" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>

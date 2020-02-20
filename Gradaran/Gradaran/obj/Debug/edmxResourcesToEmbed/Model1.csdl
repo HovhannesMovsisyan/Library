@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="GradaranModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+  <EntityType Name="Grqer">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="vernagir" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <Property Name="heghinak" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <Property Name="gin" Type="Int32" />
+    <Property Name="qanak" Type="Int32" />
+  </EntityType>
+  <EntityContainer Name="GradaranEntities" annotation:LazyLoadingEnabled="true">
+    <EntitySet Name="Grqers" EntityType="Self.Grqer" />
+  </EntityContainer>
+</Schema>
